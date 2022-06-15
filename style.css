@@ -1,0 +1,137 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth; 
+  }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    letter-spacing: 3px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #e2dcfc;
+    color: #187b94;
+
+}
+
+header {
+    color: #5D5C61;
+    background-color:  #187b94;
+}
+
+ main {
+}
+
+footer {
+    background-color:  #187b94;
+}
+ .footer-container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.age {
+  color:#9D8D8F;
+  font: bold 36px/1.2 Poppins;
+  margin: 20px;
+}
+.github-link {
+  color:#9D8D8F;
+}
+.rs-logo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.gh-logo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: 25%;
+
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+  }
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10%;
+  }
+  
+  .section {
+    width: 50%;
+    border-bottom: 1px solid  #187b94;
+  }
+  #profile {
+    width: 100%;
+  }
+  .section-profile {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .section-profile-logo {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20%;
+    margin-right: 55px;
+}   
+ .header-container {
+    color: #5D5C61;
+    flex-direction: column;
+    }
+
+.nav-list {
+    /*border: 1px solid;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 0 20px;
+    line-height: 50px;
+    text-align: right;
+    font: bold 24px/1.2 Poppins;
+
+  }
+
+  .nav-item {
+
+      margin: 10px;
+  }
+  .nav-link {
+     color:#9D8D8F
+
+}
+
+  a {
+    color: #187b94;
+    text-decoration:none ;
+    transition: color 2s;
+  }
+  a:hover {
+    color: #5D5C61 ;
+    text-decoration: underline ;
+  }
+
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+
+    }
+  }
